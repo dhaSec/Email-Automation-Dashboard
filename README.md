@@ -36,5 +36,5 @@ Utilizes **NLP models (e.g., OpenAI/ChatGPT)** to craft impactful messages using
 
 ---
 
-## 📂 Folder Structure
+
 
