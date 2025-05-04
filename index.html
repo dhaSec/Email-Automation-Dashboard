@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VBDA Email Automation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>VBDA Email Automation Dashboard</h1>
+    </header>
+
+    <main>
+        <section id="upload-section">
+            <h2>Upload CSV File</h2>
+            <input type="file" id="csv-file" accept=".csv">
+            <button onclick="uploadCSV()">Upload</button>
+        </section>
+
+        <section id="email-templates">
+            <h2>Email Template Preview</h2>
+            <textarea id="email-template" rows="6" cols="50">
+Dear {FirstName},
+
+We are excited to invite you to the VBDA 2025 event. Your contributions in {Achievement} have been exemplary.
+
+Looking forward to your participation!
+
+Best regards,
+VBDA Team
+            </textarea>
+            <button onclick="sendBulkEmails()">Send Invitations</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by VBDA Email Automation</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+\end{code}  
